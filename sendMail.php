@@ -45,7 +45,7 @@ try {
     $mail->send();
    
 
-    header('Location: https://yamcha95.github.io/Portfolio/index.html');
+    header('Location: https://yamcha95.github.io/Portfolio/sendMail.php');
 
 
 } catch (Error $e) {
