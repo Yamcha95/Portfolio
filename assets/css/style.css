@@ -1247,7 +1247,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form [type=submit] {
   background: #34b7a7;
   border: 0;
   padding: 10px 30px 12px 30px;
@@ -1256,7 +1256,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form [type=submit]:hover {
   background: #3dc8b7;
 }
 
@@ -1269,31 +1269,7 @@ section {
     transform: rotate(360deg);
   }
 }
-/*--------------------------------------------------------------
-#Accordion
---------------------------------------------------------------*/
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
 
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
 
 /*--------------------------------------------------------------
 # Footer
