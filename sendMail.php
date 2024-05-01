@@ -20,14 +20,14 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
   //  $mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = "no-reply@my-intranet.fr";                     //SMTP username
-    $mail->Password   = "Factit007";                            //SMTP password
+    $mail->Username   = "Mehdi@D3v4pp.fr";                     //SMTP username
+    $mail->Password   = "Zeuble3atay";                            //SMTP password
 //    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     $mail->Host = 'ssl0.ovh.net';
 
     //Recipients
-    $mail->setFrom("no-reply@my-intranet.fr", 'CONTACT DEPUIS PORTFOLIO ');
+    $mail->setFrom("Mehdi@D3v4pp.fr", 'CONTACT DEPUIS PORTFOLIO ');
     $mail->addAddress('beghdadimehdi95@gmail.com', 'Mehdi Beghdadi');     //Add a recipient
 
 
@@ -45,7 +45,7 @@ try {
     $mail->send();
    
 
-    header('Location: https://yamcha95.github.io/Portfolio');
+    header('Location: /');
 
 
 } catch (Error $e) {
